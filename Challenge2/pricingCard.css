@@ -1,0 +1,109 @@
+body {
+    background-color: #191b1d;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+  }
+  .page-title {
+    text-align: center;
+  }
+  .current-plan {
+    background-color: #bc1e4a;
+    /*border: green solid;*/
+    width: 20%;
+    margin: 10px;
+    justify-content: center;
+  }
+  .bill-type {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 70%;
+    gap: 10px;
+    margin-bottom: 20px;
+    /*border: solid white;*/
+    width: 40%;
+    height: auto;
+  }
+  label {
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    margin-right: 0.6rem;
+    color: #eee;
+  }
+  label input {
+    margin-right: 0.4rem;
+    vertical-align: middle;
+  }
+  
+  .pricing-table {
+    display: flex; /*two element in one line*/
+    justify-content: space-between;
+    margin: -25px 50px;
+    height: 10%;
+    width: auto;
+    gap: 20px;
+    /*border: solid bisque;*/
+  }
+  .starter-plan,
+  .pro-plan,
+  .enterprise-plan {
+    background-color: #22262c;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    flex: 1;
+    /*border: solid white;*/
+    padding-top: 10px;
+    padding-bottom: 20px;
+  }
+  .name,
+  .price,
+  .maus-options,
+  .button {
+    text-align: center;
+  }
+  
+  .button {
+    text-align: center;
+    background-color: #22262c;
+    border: solid #3d2531;
+    border-radius: 5px;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    display: block;
+    margin-inline: auto;
+    margin-top: auto;
+    font-weight: 600;
+    cursor: pointer;
+    width: 150px;
+  }
+  button:hover {
+    background-color: #642339;
+  }
+  li {
+    padding: 5px 5px 5px;
+  }
+  select {
+    border: #303339 solid;
+    padding: 10px 20px;
+    border-radius: 1px;
+    background-color: #22262c;
+    color: #fff;
+    margin-bottom: 10px;
+  }
+  p {
+    color: #642339;
+  }
+  .price sub {
+    font-size: 70%;
+  }
+  .features {
+    text-align: left;
+    margin-block: 30px;
+  }
+  .list {
+    /*border: #fff solid;*/
+    padding: 0px;
+  }
+  

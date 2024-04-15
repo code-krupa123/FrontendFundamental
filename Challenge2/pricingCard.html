@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="pricingCard.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <center>
+      <div class="current-plan">
+        <span>Your current plan:</span>
+        <br />
+        <span class="plan-name"> Starter Trial • 500MAUs </span>
+      </div>
+    </center>
+    <center>
+      <div class="bill-type">
+        <h1 class="page-title">Choose a plan</h1>
+        <br />
+        <label for="monthly-plan">
+          <input
+            type="radio"
+            name="subscription-type"
+            id="monthly-plan"
+          />Billed monthly
+        </label>
+        <label for="anually-plan">
+          <input
+            type="radio"
+            name="subscription-type"
+            id="anually-plan"
+            checked
+          />Billed anually
+        </label>
+      </div>
+    </center>
+    <!--<div class="monthly">Billed monthly</div>
+      <div class="bill-toggle">
+        <input type="checkbox" id="bill-toggle" checked />
+        <label for="bill-toggle"></label>
+      </div>
+      <div class="annually">Billed anually</div>
+    </div>-->
+
+    <div class="pricing-table">
+      <div class="starter-plan">
+        <h3 class="name">Starter</h3>
+        <h1 class="price">$19</h1>
+        <div class="list">
+          <ul class="features">
+            <li>500 MAUs</li>
+            <li>3 projects</li>
+            <li>Unlimited guides</li>
+            <li>Unlimited flows</li>
+            <li>Unlimited branded themes</li>
+            <li>Email support</li>
+          </ul>
+        </div>
+        <button type="button" class="button">Choose Plan</button>
+      </div>
+      <div class="pro-plan">
+        <h3 class="name">Pro</h3>
+        <h1 class="price">$99<sub>/month</sub></h1>
+        <div class="maus-options">
+          <select name="select" id="select">
+            <option value="select">2500 MAUs</option>
+            <option value="select">5000 MAUs</option>
+            <option value="select">10000 MAUs</option>
+          </select>
+          <br />
+          <p>Monthly active users</p>
+        </div>
+        <div class="list">
+          <ul class="features">
+            <li>All starter features plan</li>
+            <li>Unlimited projects</li>
+            <li>Unlimited fully customizable themes</li>
+            <li>A dedicated Customer Success Manager</li>
+          </ul>
+        </div>
+        <button type="button" class="button">Choose Plan</button>
+      </div>
+      <div class="enterprise-plan">
+        <h3 class="name">Enterprise</h3>
+        <h1 class="price">Let's Talk!</h1>
+        <div class="list">
+          <ul class="features">
+            <li>all pro features</li>
+            <li>Unlimited MAUS</li>
+            <li>Dedicated environment</li>
+            <li>Enterprise account administration</li>
+            <li>Premium support and services</li>
+          </ul>
+        </div>
+        <button type="button" class="button">Conatact Us</button>
+      </div>
+    </div>
+  </body>
+</html>
