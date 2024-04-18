@@ -7,32 +7,32 @@ body {
   background-color: #ffffff;
   width: 50%;
   margin: auto;
-  margin-top: 6.5%;
+  margin-top: 10%;
   padding: 60px;
-  border-radius: 10px;
-  box-shadow: 10px 10px #f2f4fd;
-  align-items: center;
+  text-align: center;
+  border-radius: 20px;
+  box-shadow: 10px 10px lightsteelblue;
 }
 
 .main-heading {
   font-size: 30px;
   font-weight: 500;
   font-family: "Merriweather", serif;
-  margin-bottom: 0px;
 }
 
 .other-content {
   font-size: 20px;
   font-weight: 300;
   font-family: "Noto Sans", sans-serif;
-  margin-top: 0px;
+  margin-top: -25px;
 }
 
 #email-text-field {
   width: 450px;
   height: 40px;
   border: none;
-  padding-left: 15px;
+  /*padding-left: 15px;*/
+  padding: 20px 15px 20px 20px;
   background-color: #e6e9fb;
   font-size: 16px;
   color: #111827;
@@ -54,16 +54,17 @@ body {
   font-size: 16px;
   font-family: "Noto Sans", sans-serif;
   margin-left: 15px;
-  font-weight: 600;
 }
+
 .terms-and-conditions {
-  text-align: left;
   display: flex;
-  align-items: flex-start;
-  font-size: 13px;
-  padding-top: 5px;
-  padding-left: 5px;
+  font-size: 14px;
+  
 }
-#checkbox{
-  border-radius: 10px;
+
+.marketing-terms {
+  padding-top: 15px;
+  text-align: left;
 }
+
+
